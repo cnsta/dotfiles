@@ -1,0 +1,6 @@
+#!/bin/sh
+if pgrep -f floatcal; then
+    pkill -f floatcal
+else
+    hyprctl dispatch exec 'foot --title floatcal calcurse'
+fi

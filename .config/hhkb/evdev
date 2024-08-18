@@ -1,0 +1,14 @@
+## Add the following to /usr/share/X11/xkb/rules/evdev.xml* & evdev.lst** respectively.
+
+## * Within [variantList]:
+        <variant>
+          <configItem>
+            <name>hhkbse</name>
+            <description>HHKBse</description>
+          </configItem>
+        </variant>
+
+## ** After "! variant":
+  hhkbse          se: HHKBse
+
+## Set kb_option = lv3:rwin_switch or whichever mod key you'd like in hyprland.conf

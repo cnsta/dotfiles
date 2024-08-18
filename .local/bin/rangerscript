@@ -1,0 +1,3 @@
+#!/bin/sh
+export RANGERCD=true
+pgrep -f floatranger && pkill -f floatranger || hyprctl dispatch exec 'alacritty --class floatranger -e ranger'

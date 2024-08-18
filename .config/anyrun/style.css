@@ -1,0 +1,52 @@
+* {
+  all: unset;
+  font-size: 12;
+  color: #ffe0c0;
+  font-family: "Input Mono Narrow Light";
+}
+
+#window,
+#match,
+#entry,
+#plugin,
+#main {
+  background: transparent;
+}
+#match.activatable {
+  border-radius: 0px;
+  margin: 4px 0;
+  padding: 4px;
+  transition: 100ms ease-out;
+}
+#match.activatable:first-child {
+  margin-top: 12px;
+}
+#match.activatable:last-child {
+  margin-bottom: 0;
+}
+
+#match:hover {
+  background: rgba(255, 255, 255, 0.05);
+}
+#match:selected {
+  background: rgba(255, 255, 255, 0.1);
+}
+
+#entry {
+  background: rgba(255, 255, 255, 0.05);
+  border-radius: 0px;
+  padding: 4px 8px;
+}
+
+box#main {
+  background-image: url("/home/cnst/.config/anyrun/images/bordertop.svg");
+  background-size: auto;
+  background-position: 0px 0px;
+  background-repeat: no-repeat;
+  border-bottom: 13px solid transparent;
+  border-image: url("/home/cnst/.config/anyrun/images/borderbottom.svg");
+  border-image-slice: 0 0 13 0;
+  padding: 22px 20px 0px 20px;
+  font-size: 60px;
+  box-shadow: 12.665px -5px rgba(26, 26, 26, 0.85);
+}

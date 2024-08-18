@@ -1,0 +1,2 @@
+#!/bin/sh
+pgrep -f floatnnn && pkill -f floatnnn || hyprctl dispatch exec 'alacritty --class floatnnn -e nnn'

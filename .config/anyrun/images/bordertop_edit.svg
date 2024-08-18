@@ -1,0 +1,502 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!-- Created with Inkscape (http://www.inkscape.org/) -->
+
+<svg
+   width="600"
+   height="1440"
+   viewBox="0 0 158.75 381"
+   version="1.1"
+   id="svg1"
+   inkscape:version="1.3.2 (091e20ef0f, 2023-11-25)"
+   sodipodi:docname="bordertop_edit.svg"
+   xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
+   xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
+   xmlns="http://www.w3.org/2000/svg"
+   xmlns:svg="http://www.w3.org/2000/svg">
+  <sodipodi:namedview
+     id="namedview1"
+     pagecolor="#ffffff"
+     bordercolor="#000000"
+     borderopacity="0.25"
+     inkscape:showpageshadow="2"
+     inkscape:pageopacity="0.0"
+     inkscape:pagecheckerboard="0"
+     inkscape:deskcolor="#d1d1d1"
+     inkscape:document-units="mm"
+     inkscape:zoom="5.6568542"
+     inkscape:cx="302.19976"
+     inkscape:cy="35.708893"
+     inkscape:window-width="2544"
+     inkscape:window-height="1402"
+     inkscape:window-x="0"
+     inkscape:window-y="0"
+     inkscape:window-maximized="1"
+     inkscape:current-layer="layer1"
+     showgrid="false" />
+  <defs
+     id="defs1">
+    <rect
+       x="-217.78889"
+       y="-138.59293"
+       width="1077.6307"
+       height="1747.968"
+       id="rect10" />
+    <rect
+       x="232.25"
+       y="-52.5"
+       width="142.75"
+       height="35.25"
+       id="rect9" />
+    <inkscape:path-effect
+       effect="fillet_chamfer"
+       id="path-effect9"
+       is_visible="true"
+       lpeversion="1"
+       nodesatellites_param="F,0,0,1,0,0,0,1 @ F,0,0,1,0,0,0,1 @ F,0,0,1,0,0,0,1 @ F,0,0,1,0,0,0,1"
+       radius="0"
+       unit="px"
+       method="auto"
+       mode="F"
+       chamfer_steps="1"
+       flexible="false"
+       use_knot_distance="true"
+       apply_no_radius="true"
+       apply_with_radius="true"
+       only_selected="false"
+       hide_knots="false" />
+    <inkscape:path-effect
+       effect="fillet_chamfer"
+       id="path-effect8"
+       is_visible="true"
+       lpeversion="1"
+       nodesatellites_param="F,0,0,1,0,0,0,1 @ F,0,0,1,0,0,0,1 @ F,0,0,1,0,0,0,1 @ F,0,0,1,0,0,0,1"
+       radius="0"
+       unit="px"
+       method="auto"
+       mode="F"
+       chamfer_steps="1"
+       flexible="false"
+       use_knot_distance="true"
+       apply_no_radius="true"
+       apply_with_radius="true"
+       only_selected="false"
+       hide_knots="false" />
+    <inkscape:path-effect
+       effect="fillet_chamfer"
+       id="path-effect7"
+       is_visible="true"
+       lpeversion="1"
+       nodesatellites_param="F,0,0,1,0,0,0,1 @ F,0,0,1,0,0,0,1 @ F,0,0,1,0,0,0,1 @ F,0,0,1,0,0,0,1"
+       radius="0"
+       unit="px"
+       method="auto"
+       mode="F"
+       chamfer_steps="1"
+       flexible="false"
+       use_knot_distance="true"
+       apply_no_radius="true"
+       apply_with_radius="true"
+       only_selected="false"
+       hide_knots="false" />
+    <rect
+       x="-41"
+       y="-57"
+       width="691"
+       height="120"
+       id="rect7" />
+    <rect
+       x="-124"
+       y="-116"
+       width="832"
+       height="1704"
+       id="rect5" />
+    <rect
+       x="243.77506"
+       y="-39.774756"
+       width="108.27573"
+       height="27.223611"
+       id="rect8" />
+    <rect
+       x="245.63122"
+       y="-25.279067"
+       width="105.00536"
+       height="23.246135"
+       id="rect4" />
+    <rect
+       x="-35.248203"
+       y="27.114002"
+       width="651.63985"
+       height="192.96131"
+       id="rect6" />
+    <rect
+       x="-77.726806"
+       y="-81.342006"
+       width="773.65286"
+       height="1628.6477"
+       id="rect3" />
+    <rect
+       x="-42.026703"
+       y="-12.201301"
+       width="675.59058"
+       height="41.574802"
+       id="rect1" />
+    <rect
+       x="-35.248203"
+       y="27.114002"
+       width="651.63983"
+       height="192.9613"
+       id="rect6-0" />
+    <rect
+       x="-35.248203"
+       y="27.114002"
+       width="651.63983"
+       height="192.9613"
+       id="rect6-6" />
+    <rect
+       x="-35.248203"
+       y="27.114002"
+       width="651.63983"
+       height="192.9613"
+       id="rect6-0-3" />
+  </defs>
+  <g
+     inkscape:label="Layer 1"
+     inkscape:groupmode="layer"
+     id="layer1">
+    <path
+       id="rect2"
+       d="M 1.4108887,2.234489 H 157.33911 V 383.23449 H 1.4108887 Z"
+       style="fill:#282828;stroke-width:2.8561"
+       inkscape:path-effect="#path-effect9"
+       inkscape:original-d="M 1.4108887,2.234489 H 157.33911 V 383.23449 H 1.4108887 Z" />
+    <text
+       xml:space="preserve"
+       transform="matrix(0.26458333,0,0,0.26458333,-0.96793229,13.907906)"
+       id="text9"
+       style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:14.6667px;line-height:18.4px;font-family:'Input Mono';-inkscape-font-specification:'Input Mono';text-align:center;letter-spacing:0px;word-spacing:0px;white-space:pre;shape-inside:url(#rect9);display:inline;fill:#b3b3b3"><tspan
+         x="280.2916"
+         y="-39.299991"
+         id="tspan2">@cnix</tspan></text>
+    <text
+       xml:space="preserve"
+       transform="matrix(0.26458333,0,0,0.26458333,-5.5632232,36.645536)"
+       id="text1"
+       style="font-size:14.6667px;line-height:18.4px;font-family:'Input Mono';-inkscape-font-specification:'Input Mono';text-align:center;letter-spacing:0px;word-spacing:0px;white-space:pre;shape-inside:url(#rect10);fill:#b3b3b3"><tspan
+         x="22.358852"
+         y="-125.39374"
+         id="tspan3">┌───────────────────────────        ───────────────────────────┐
+</tspan><tspan
+         x="22.358852"
+         y="-106.99374"
+         id="tspan4">│                                                              │
+</tspan><tspan
+         x="22.358852"
+         y="-88.593738"
+         id="tspan5">│                                                              │
+</tspan><tspan
+         x="22.358852"
+         y="-70.193736"
+         id="tspan6">│                                                              │
+</tspan><tspan
+         x="22.358852"
+         y="-51.793735"
+         id="tspan7">│                                                              │
+</tspan><tspan
+         x="22.358852"
+         y="-33.393733"
+         id="tspan8">│                                                              │
+</tspan><tspan
+         x="22.358852"
+         y="-14.993733"
+         id="tspan9">│                                                              │
+</tspan><tspan
+         x="22.358852"
+         y="3.4062662"
+         id="tspan11">│                                                              │
+</tspan><tspan
+         x="22.358852"
+         y="21.806266"
+         id="tspan12">│                                                              │
+</tspan><tspan
+         x="22.358852"
+         y="40.206265"
+         id="tspan13">│                                                              │
+</tspan><tspan
+         x="22.358852"
+         y="58.606267"
+         id="tspan14">│                                                              │
+</tspan><tspan
+         x="22.358852"
+         y="77.006268"
+         id="tspan15">│                                                              │
+</tspan><tspan
+         x="22.358852"
+         y="95.40627"
+         id="tspan16">│                                                              │
+</tspan><tspan
+         x="22.358852"
+         y="113.80627"
+         id="tspan17">│                                                              │
+</tspan><tspan
+         x="22.358852"
+         y="132.20627"
+         id="tspan18">│                                                              │
+</tspan><tspan
+         x="22.358852"
+         y="150.60627"
+         id="tspan19">│                                                              │
+</tspan><tspan
+         x="22.358852"
+         y="169.00627"
+         id="tspan20">│                                                              │
+</tspan><tspan
+         x="22.358852"
+         y="187.40626"
+         id="tspan21">│                                                              │
+</tspan><tspan
+         x="22.358852"
+         y="205.80626"
+         id="tspan22">│                                                              │
+</tspan><tspan
+         x="22.358852"
+         y="224.20625"
+         id="tspan23">│                                                              │
+</tspan><tspan
+         x="22.358852"
+         y="242.60624"
+         id="tspan24">│                                                              │
+</tspan><tspan
+         x="22.358852"
+         y="261.00624"
+         id="tspan25">│                                                              │
+</tspan><tspan
+         x="22.358852"
+         y="279.40625"
+         id="tspan26">│                                                              │
+</tspan><tspan
+         x="22.358852"
+         y="297.80624"
+         id="tspan27">│                                                              │
+</tspan><tspan
+         x="22.358852"
+         y="316.20623"
+         id="tspan28">│                                                              │
+</tspan><tspan
+         x="22.358852"
+         y="334.60623"
+         id="tspan29">│                                                              │
+</tspan><tspan
+         x="22.358852"
+         y="353.00622"
+         id="tspan30">│                                                              │
+</tspan><tspan
+         x="22.358852"
+         y="371.40622"
+         id="tspan31">│                                                              │
+</tspan><tspan
+         x="22.358852"
+         y="389.80621"
+         id="tspan32">│                                                              │
+</tspan><tspan
+         x="22.358852"
+         y="408.2062"
+         id="tspan33">│                                                              │
+</tspan><tspan
+         x="22.358852"
+         y="426.6062"
+         id="tspan34">│                                                              │
+</tspan><tspan
+         x="22.358852"
+         y="445.00619"
+         id="tspan35">│                                                              │
+</tspan><tspan
+         x="22.358852"
+         y="463.40619"
+         id="tspan36">│                                                              │
+</tspan><tspan
+         x="22.358852"
+         y="481.80618"
+         id="tspan37">│                                                              │
+</tspan><tspan
+         x="22.358852"
+         y="500.20617"
+         id="tspan38">│                                                              │
+</tspan><tspan
+         x="22.358852"
+         y="518.60617"
+         id="tspan39">│                                                              │
+</tspan><tspan
+         x="22.358852"
+         y="537.00616"
+         id="tspan40">│                                                              │
+</tspan><tspan
+         x="22.358852"
+         y="555.40619"
+         id="tspan41">│                                                              │
+</tspan><tspan
+         x="22.358852"
+         y="573.80621"
+         id="tspan42">│                                                              │
+</tspan><tspan
+         x="22.358852"
+         y="592.20623"
+         id="tspan43">│                                                              │
+</tspan><tspan
+         x="22.358852"
+         y="610.60626"
+         id="tspan44">│                                                              │
+</tspan><tspan
+         x="22.358852"
+         y="629.00628"
+         id="tspan45">│                                                              │
+</tspan><tspan
+         x="22.358852"
+         y="647.40631"
+         id="tspan46">│                                                              │
+</tspan><tspan
+         x="22.358852"
+         y="665.80633"
+         id="tspan47">│                                                              │
+</tspan><tspan
+         x="22.358852"
+         y="684.20636"
+         id="tspan48">│                                                              │
+</tspan><tspan
+         x="22.358852"
+         y="702.60638"
+         id="tspan49">│                                                              │
+</tspan><tspan
+         x="22.358852"
+         y="721.00641"
+         id="tspan50">│                                                              │
+</tspan><tspan
+         x="22.358852"
+         y="739.40643"
+         id="tspan51">│                                                              │
+</tspan><tspan
+         x="22.358852"
+         y="757.80645"
+         id="tspan52">│                                                              │
+</tspan><tspan
+         x="22.358852"
+         y="776.20648"
+         id="tspan53">│                                                              │
+</tspan><tspan
+         x="22.358852"
+         y="794.6065"
+         id="tspan54">│                                                              │
+</tspan><tspan
+         x="22.358852"
+         y="813.00653"
+         id="tspan55">│                                                              │
+</tspan><tspan
+         x="22.358852"
+         y="831.40655"
+         id="tspan56">│                                                              │
+</tspan><tspan
+         x="22.358852"
+         y="849.80658"
+         id="tspan57">│                                                              │
+</tspan><tspan
+         x="22.358852"
+         y="868.2066"
+         id="tspan58">│                                                              │
+</tspan><tspan
+         x="22.358852"
+         y="886.60663"
+         id="tspan59">│                                                              │
+</tspan><tspan
+         x="22.358852"
+         y="905.00665"
+         id="tspan60">│                                                              │
+</tspan><tspan
+         x="22.358852"
+         y="923.40667"
+         id="tspan61">│                                                              │
+</tspan><tspan
+         x="22.358852"
+         y="941.8067"
+         id="tspan62">│                                                              │
+</tspan><tspan
+         x="22.358852"
+         y="960.20672"
+         id="tspan63">│                                                              │
+</tspan><tspan
+         x="22.358852"
+         y="978.60675"
+         id="tspan64">│                                                              │
+</tspan><tspan
+         x="22.358852"
+         y="997.00677"
+         id="tspan65">│                                                              │
+</tspan><tspan
+         x="22.358852"
+         y="1015.4068"
+         id="tspan66">│                                                              │
+</tspan><tspan
+         x="22.358852"
+         y="1033.8068"
+         id="tspan67">│                                                              │
+</tspan><tspan
+         x="22.358852"
+         y="1052.2068"
+         id="tspan68">│                                                              │
+</tspan><tspan
+         x="22.358852"
+         y="1070.6069"
+         id="tspan69">│                                                              │
+</tspan><tspan
+         x="22.358852"
+         y="1089.0069"
+         id="tspan70">│                                                              │
+</tspan><tspan
+         x="22.358852"
+         y="1107.4069"
+         id="tspan71">│                                                              │
+</tspan><tspan
+         x="22.358852"
+         y="1125.8069"
+         id="tspan72">│                                                              │
+</tspan><tspan
+         x="22.358852"
+         y="1144.207"
+         id="tspan73">│                                                              │
+</tspan><tspan
+         x="22.358852"
+         y="1162.607"
+         id="tspan74">│                                                              │
+</tspan><tspan
+         x="22.358852"
+         y="1181.007"
+         id="tspan75">│                                                              │
+</tspan><tspan
+         x="22.358852"
+         y="1199.407"
+         id="tspan76">│                                                              │
+</tspan><tspan
+         x="22.358852"
+         y="1217.8071"
+         id="tspan77">│                                                              │
+</tspan><tspan
+         x="22.358852"
+         y="1236.2071"
+         id="tspan78">│                                                              │
+</tspan><tspan
+         x="22.358852"
+         y="1254.6071"
+         id="tspan79">│                                                              │
+</tspan><tspan
+         x="22.358852"
+         y="1273.0071"
+         id="tspan80">│                                                              │
+</tspan><tspan
+         x="22.358852"
+         y="1291.4072"
+         id="tspan81">│                                                              │
+</tspan><tspan
+         x="22.358852"
+         y="1309.8072"
+         id="tspan82">│                                                              │
+</tspan></text>
+  </g>
+</svg>

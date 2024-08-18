@@ -1,0 +1,11 @@
+image: alpine/edge
+secrets:
+  - 18937d43-cae6-43f3-9c82-1280c04364bf
+sources:
+  - git+ssh//git@git.sr.ht/canasta/dotfiles
+tasks:
+  - mirror-to-github: |
+      cd ~/dotfiles
+      ssh-keyscan -t rsa github.com >> ~/.ssh/known_hosts
+      git remote add github git@github.com:cnsta/dotfiles.git
+      git push --mirror github
