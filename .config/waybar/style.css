@@ -131,7 +131,7 @@ tooltip {
 
 #custom-logo {
   font-size: 16px;
-  background-image: url("/home/cnst/.config/waybar/images/button.svg");
+  background-image: url("../waybar/images/button.svg");
   background-position: center;
   background-repeat: no-repeat;
   background-size: 18px 15px;

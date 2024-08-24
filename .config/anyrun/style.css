@@ -39,12 +39,12 @@
 }
 
 box#main {
-  background-image: url("/home/cnst/.config/anyrun/images/bordertop.svg");
+  background-image: url("../anyrun/images/bordertop.svg");
   background-size: auto;
   background-position: 0px 0px;
   background-repeat: no-repeat;
   border-bottom: 13px solid transparent;
-  border-image: url("/home/cnst/.config/anyrun/images/borderbottom.svg");
+  border-image: url("../anyrun/images/borderbottom.svg");
   border-image-slice: 0 0 13 0;
   padding: 22px 20px 0px 20px;
   font-size: 60px;
