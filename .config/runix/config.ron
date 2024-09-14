@@ -1,0 +1,4 @@
+(
+    terminal: Some("alacritty"),
+    max_entries: 10,
+)
