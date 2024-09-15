@@ -1,7 +1,7 @@
 #!/bin/sh
 
 # Path to the runix executable
-RUNIX_PATH="/home/cnst/documents/rust/runix/target/release/runix"
+RUNIX_PATH="/etc/profiles/per-user/$USER/bin/runix"
 
 # Check if a window with title 'runix' exists
 if hyprctl clients | grep -q "title: runix"; then
