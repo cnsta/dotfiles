@@ -8,9 +8,12 @@
   "gtk-layer-shell": true,
   "width": "100%",
   "margin": "0px 0px 0px 0px",
-
-  "modules-left": ["custom/logo"],
-  "modules-center": ["hyprland/workspaces"],
+  "modules-left": [
+    "custom/logo"
+  ],
+  "modules-center": [
+    "hyprland/workspaces"
+  ],
   "modules-right": [
     "group/stuff",
     "pulseaudio",
@@ -19,7 +22,6 @@
     "clock",
     "custom/mako",
   ],
-
   // GROUPS //
   "group/stuff": {
     "orientation": "inherit",
@@ -28,30 +30,34 @@
       "transistion-duration": 250,
       "click-to-reveal": true,
     },
-    "modules": ["custom/trayicon", "tray"],
+    "modules": [
+      "custom/trayicon",
+      "tray"
+    ],
   },
-
   "group/system": {
     "orientation": "inherit",
     "drawer": {
       "transistion-left-to-right": false,
       "transition-duration": 500,
     },
-    "modules": ["custom/logo", "cpu", "memory", "network"],
+    "modules": [
+      "custom/logo",
+      "cpu",
+      "memory",
+      "network"
+    ],
   },
-
   "custom/logo": {
     "format": "   ",
     "tooltip": false,
   },
-
   "custom/vpn": {
     "tooltip": false,
     "exec": "vpnstatus",
     "on-click": "vpntoggle",
     "restart-interval": 1,
   },
-
   "power-profiles-daemon": {
     "format": "{icon}",
     "tooltip-format": "Power profile: {profile}\nDriver: {driver}",
@@ -63,14 +69,12 @@
       "power-saver": "",
     },
   },
-
   "custom/mako": {
-    "exec": "~/.config/waybar/scripts/mako.sh",
-    "on-click": "~/.config/waybar/scripts/mako-toggle.sh",
+    "exec": "mako.sh",
+    "on-click": "mako-toggle.sh",
     "restart-interval": 1,
     "tooltip": false,
   },
-
   "custom/weather": {
     "exec": "python ~/.config/waybar/scripts/Weather.py",
     "restart-interval": 300,
@@ -80,20 +84,26 @@
     "format": "󰣇",
     "on-click": "tofi-drun &",
   },
-
   "custom/trayicon": {
     "format": "󰅁",
     "tooltip": false,
   },
-
   "cpu": {
     "interval": 10,
     "format": "󰍛 {usage}%",
     "rotate": 0,
     "format-alt": "{icon0}{icon1}{icon2}{icon3}",
-    "format-icons": ["▁", "▂", "▃", "▄", "▅", "▆", "▇", "█"],
+    "format-icons": [
+      "▁",
+      "▂",
+      "▃",
+      "▄",
+      "▅",
+      "▆",
+      "▇",
+      "█"
+    ],
   },
-
   "memory": {
     "states": {
       "c": 90, // critical
@@ -111,7 +121,6 @@
     "tooltip": true,
     "tooltip-format": "󰾆 {percentage}%\n {used:0.1f}GB/{total:0.1f}GB",
   },
-
   "hyprland/workspaces": {
     "format": "{icon}",
     "format-icons": {
@@ -135,7 +144,6 @@
       "*": 3,
     },
   },
-
   "hyprland/window": {
     "format": "  {}",
     "separate-outputs": true,
@@ -150,13 +158,11 @@
     },
     "max-length": 1000,
   },
-
   "tray": {
     "icon-size": 12,
     "rotate": 0,
     "spacing": 5,
   },
-
   "network": {
     "tooltip": true,
     "format-wifi": " ",
@@ -169,7 +175,6 @@
     "format-alt": "<span foreground='#99ffdd'> {bandwidthDownBytes}</span> <span foreground='#ffcc66'> {bandwidthUpBytes}</span>",
     "interval": 2,
   },
-
   "bluetooth": {
     "format": "",
     "format-connected": "󰂱",
@@ -177,22 +182,33 @@
     "rotate": 0,
     "format-connected-battery": "{icon} {num_connections}",
     // "format-connected-battery": "{icon} {device_alias}-{device_battery_percentage}%",
-    "format-icons": ["󰥇", "󰤾", "󰤿", "󰥀", "󰥁", "󰥂", "󰥃", "󰥄", "󰥅", "󰥆", "󰥈"],
+    "format-icons": [
+      "󰥇",
+      "󰤾",
+      "󰤿",
+      "󰥀",
+      "󰥁",
+      "󰥂",
+      "󰥃",
+      "󰥄",
+      "󰥅",
+      "󰥆",
+      "󰥈"
+    ],
     // "format-device-preference": [ "device1", "device2" ], // preference list deciding the displayed device If this config option is not defined or none of the devices in the list are connected, it will fall back to showing the last connected device.
     "tooltip-format": "{controller_alias}\n{num_connections} connected",
     "tooltip-format-connected": "{controller_alias}\n{num_connections} connected\n\n{device_enumerate}",
     "tooltip-format-enumerate-connected": "{device_alias}",
     "tooltip-format-enumerate-connected-battery": "{device_alias}\t{icon} {device_battery_percentage}%",
   },
-
   "pulseaudio": {
     "format": "{icon} ",
     "rotate": 0,
     "format-muted": "󰝟",
-    "on-click": "pgrep pavucontrol && killall pavucontrol || hyprctl dispatch exec pavucontrol",
-    "on-scroll-up": "volume --inc #volume up",
-    "on-scroll-down": "volume --dec #volume down",
-    "on-click-right": "volume --toggle",
+    "on-click": "pavucontrol-toggle.sh",
+    "on-scroll-up": "volume-control.sh --inc #volume up",
+    "on-scroll-down": "volume-control.sh --dec #volume down",
+    "on-click-right": "volume-control.sh --toggle",
     "tooltip-format": "{icon} {volume}%",
     "scroll-step": 5,
     "format-icons": {
@@ -202,10 +218,13 @@
       "phone": "",
       "portable": "",
       "car": "",
-      "default": ["󰕿", "󰖀", "󰕾"],
+      "default": [
+        "󰕿",
+        "󰖀",
+        "󰕾"
+      ],
     },
   },
-
   "pulseaudio#microphone": {
     "format": "{format_source} ",
     "rotate": 0,
@@ -219,7 +238,6 @@
     "tooltip-format": "{format_source} {source_volume}%",
     "scroll-step": 5,
   },
-
   "battery": {
     "states": {
       "good": 95,
@@ -231,19 +249,39 @@
     "format-charging": "{capacity}%  ",
     "format-plugged": "{capacity}%  ",
     "format-alt": "{time} {icon} ",
-    "format-icons": ["󰂎", "󰁺", "󰁻", "󰁼", "󰁽", "󰁾", "󰁿", "󰂀", "󰂁", "󰂂", "󰁹"],
+    "format-icons": [
+      "󰂎",
+      "󰁺",
+      "󰁻",
+      "󰁼",
+      "󰁽",
+      "󰁾",
+      "󰁿",
+      "󰂀",
+      "󰂁",
+      "󰂂",
+      "󰁹"
+    ],
   },
-
   "backlight": {
     "device": "intel_backlight",
     "rotate": 0,
     "format": "{icon} {percent}%",
-    "format-icons": ["", "", "", "", "", "", "", "", ""],
+    "format-icons": [
+      "",
+      "",
+      "",
+      "",
+      "",
+      "",
+      "",
+      "",
+      ""
+    ],
     "on-scroll-up": "brightnessctl set 1%+",
     "on-scroll-down": "brightnessctl set 1%-",
     "min-length": 6,
   },
-
   "idle_inhibitor": {
     "format": "{icon} ",
     "rotate": 0,
@@ -253,52 +291,44 @@
       "deactivated": "",
     },
   },
-
   "clock": {
     "format": "{:%H : %M}",
     "rotate": 0,
-    "on-click": "calscript",
-    "on-click-right": "calsync",
+    "on-click": "calcurse-toggle.sh",
+    "on-click-right": "calsync.sh",
     "tooltip": false,
   },
-
   // modules for padding //
   "custom/l_end": {
     "format": " ",
     "interval": "once",
     "tooltip": false,
   },
-
   "custom/r_end": {
     "format": " ",
     "interval": "once",
     "tooltip": false,
   },
-
   "custom/sl_end": {
     "format": " ",
     "interval": "once",
     "tooltip": false,
   },
-
   "custom/sr_end": {
     "format": " ",
     "interval": "once",
     "tooltip": false,
   },
-
   "custom/rl_end": {
     "format": " ",
     "interval": "once",
     "tooltip": false,
   },
-
   "custom/rr_end": {
     "format": " ",
     "interval": "once",
     "tooltip": false,
   },
-
   "custom/padd": {
     "format": " ",
     "interval": "once",
