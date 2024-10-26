@@ -19,8 +19,8 @@
     "pulseaudio",
     "pulseaudio#microphone",
     "battery",
-    "clock",
-    "custom/mako",
+    "clock"
+    // "custom/mako",
   ],
   // GROUPS //
   "group/stuff": {
