@@ -50,6 +50,7 @@
   },
   "custom/logo": {
     "format": "   ",
+    "on-click": "nwg-bar",
     "tooltip": false,
   },
   "custom/vpn": {
